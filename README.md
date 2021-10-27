@@ -1,12 +1,11 @@
 ## Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+### [Live Site](https://infvyr.github.com)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](public/images/screenshot.jpg)
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+This is a sample of my personal portfolio website.  
+It's built up using Next.js and ReactJS.
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
-
-Setup:
-- run ```npm i && npm start```
+#### Setup:
+- run ```npm i && npm run dev```
