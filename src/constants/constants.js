@@ -267,7 +267,7 @@ export const projects = [
     visit: 'https://novatchii-vasile.netlify.app/',
     id: 8,
     order: 1,
-    mainType: 'nextjs'
+    mainType: 'react'
   },
 ];
 
