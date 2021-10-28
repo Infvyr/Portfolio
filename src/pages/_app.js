@@ -1,5 +1,4 @@
 import {NextSeo} from "next-seo";
-import { AnimatePresence } from 'framer-motion'
 import {ThemeProvider} from 'styled-components';
 import withDarkMode, { useDarkMode } from 'next-dark-mode';
 import { lightTheme, darkTheme } from '../themes/default';
@@ -23,11 +22,7 @@ function App({ Component, pageProps }) {
           }}
         />
         <GlobalStyles />
-        <AnimatePresence
-          initial={false}
-        >
         <Component {...pageProps} />
-        </AnimatePresence>
       </ThemeProvider>
     </>
   );

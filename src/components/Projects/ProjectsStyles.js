@@ -11,7 +11,7 @@ export const GridContainer = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0;
+    padding: 2rem 0;
   }
   
   @media screen and (min-width: 768px) and (max-width: 1199px){
