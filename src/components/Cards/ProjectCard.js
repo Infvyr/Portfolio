@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-// import {motion} from 'framer-motion';
+import { AnimatePresence, motion} from 'framer-motion';
 import {
-  Card,
   Button,
   CardInfo,
   ExternalLinks,
@@ -19,7 +18,7 @@ import {BsCodeSlash, BsPlusCircleFill} from "react-icons/bs";
 import {FiExternalLink} from "react-icons/fi";
 import ProjectModal from "../Modal/ProjectModal";
 
-/*const variants = {
+const variants = {
   pageInitial: {
     opacity: 0,
     scale: 0.5
@@ -27,8 +26,12 @@ import ProjectModal from "../Modal/ProjectModal";
   pageAnimate: {
     opacity: 1,
     scale: 1
-  }
-}*/
+  },
+  pageExit: {
+    opacity: 0,
+    scale: 0.5
+  },
+}
 
 const ProjectCard = ({item}) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -38,7 +41,14 @@ const ProjectCard = ({item}) => {
 
   const {title, description, tags, visit, source, image, imageWebp, images} = item
 
-  return <Card>
+  return <AnimatePresence>
+  <motion.article
+      key={title}
+      className="project-card"
+      initial="pageInitial"
+      animate="pageAnimate"
+      variants={variants}
+      transition={{ type: 'tween' }}>
     <ImgContainer>
       <Picture>
         <source srcSet={imageWebp} type="image/webp" />
@@ -81,7 +91,8 @@ const ProjectCard = ({item}) => {
         </ExternalLinks>
       )}
     </UtilityList>
-  </Card>
+  </motion.article>
+  </AnimatePresence>
 }
 
 export default ProjectCard;

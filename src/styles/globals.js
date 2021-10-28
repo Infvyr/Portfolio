@@ -25,7 +25,6 @@ const GlobalStyles = createGlobalStyle`
   }
   h1,h2,h3,h4,h5,h6{
     background: linear-gradient(121.57deg, ${props => props.theme.colors.headingFirstGradientColor} 18.77%, ${props => props.theme.colors.accent1} 60.15%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -79,6 +78,19 @@ const GlobalStyles = createGlobalStyle`
   }
   .image-gallery-content.fullscreen .image-gallery-slide .image-gallery-image{
     max-height: 100vh;
+  }
+  
+  .project-card{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    padding-bottom: 2.5rem;
+    height: 100%;
+    background-color: ${props => props.theme.colors.bgContrast};
+    box-shadow: 0 0 3px -1px ${props => props.theme.colors.shadow};
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      width: 100%;
+    }
   }
 
 `;
