@@ -102,7 +102,7 @@ export const projects = [
     source: 'https://github.com/Infvyr/javascript-projects/tree/main/search-films',
     visit: 'https://movie-stats.netlify.app',
     id: 3,
-    order: 1,
+    order: 96,
     mainType: 'javascript'
   },
   {
@@ -234,6 +234,40 @@ export const projects = [
     id: 7,
     order: 4,
     mainType: 'react'
+  },
+  {
+    title: 'Personal Portfolio',
+    description: "My personal portfolio project. This is my first NextJS project built after I have watched a NextJS crash course. I have chosen this technology because I aim to learn it and advance more in React's world",
+    image: 'images/jpgs/React-todo-and-blog-home-1.jpg',
+    imageWebp: 'images/webps/React-todo-and-blog-home-1.webp',
+    images: [
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-home-1'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-blog-1'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-blog-2'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-contact'
+      },
+    ],
+    tags: ['NextJS', 'React', 'React hooks', 'Framer Motion', 'styled components', 'React Modal', 'React Image Gallery'],
+    source: 'https://github.com/Infvyr/Portfolio',
+    visit: 'https://novatchii-vasile.netlify.app/',
+    id: 8,
+    order: 1,
+    mainType: 'nextjs'
   },
 ];
 

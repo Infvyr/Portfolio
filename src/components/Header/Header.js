@@ -31,6 +31,11 @@ const Header = () => {
       }
       <Div2>
         <li>
+          <Link href={route === '/all-projects' ? "/#about" : '#about'}>
+            <NavLink>About</NavLink>
+          </Link>
+        </li>
+        <li>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
           </Link>
@@ -38,11 +43,6 @@ const Header = () => {
         <li>
           <Link href={route === '/all-projects' ? "/#tech" : '#tech'}>
             <NavLink>Technologies</NavLink>
-          </Link>
-        </li>
-        <li>
-          <Link href={route === '/all-projects' ? "/#about" : '#about'}>
-            <NavLink>About</NavLink>
           </Link>
         </li>
       </Div2>

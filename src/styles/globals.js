@@ -72,6 +72,10 @@ const GlobalStyles = createGlobalStyle`
   }
   .image-gallery-content:not(.fullscreen) .image-gallery-slide .image-gallery-image{
     max-height: calc(80vh - 80px);
+
+    ${(props) => props.theme.breakpoints.md}{
+      max-height: 100vh;
+    }
   }
   .image-gallery-content.fullscreen .image-gallery-slide .image-gallery-image{
     max-height: 100vh;
