@@ -83,6 +83,10 @@ const GlobalStyles = createGlobalStyle`
   }
   .image-gallery-content.fullscreen .image-gallery-slide .image-gallery-image{
     max-height: 100vh;
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      height: 96vh;
+    }
   }
   
   .project-card{
@@ -95,6 +99,7 @@ const GlobalStyles = createGlobalStyle`
 
     @media ${(props) => props.theme.breakpoints.sm} {
       width: 100%;
+      display: block;
     }
   }
 
