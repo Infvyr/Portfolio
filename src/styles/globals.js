@@ -60,6 +60,11 @@ const GlobalStyles = createGlobalStyle`
     background-color: ${props => props.theme.colors.bodyBgColor} !important;
     z-index: 21;
   }
+  .ReactModal__Content{
+    @media screen and (orientation: portrait) and (max-width: 480px) {
+      max-width: 95vw !important;
+    }
+  }
   .ReactModal__Body--open{
     overflow: hidden;
   }

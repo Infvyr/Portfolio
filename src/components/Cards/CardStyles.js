@@ -40,6 +40,7 @@ export const Card = styled.article`
   
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    display: block;
   }
 `;
 

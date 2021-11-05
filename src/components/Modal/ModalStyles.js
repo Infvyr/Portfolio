@@ -14,7 +14,8 @@ export const customStyles = {
     // height                : '45vh',
     borderRadius          : '0',
     borderWidth           : '1px',
-    backgroundColor       : 'transparent'
+    backgroundColor       : 'transparent',
+
   }
 };
 
