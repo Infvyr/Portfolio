@@ -8,13 +8,13 @@ export const GridContainer = styled.div`
   column-gap: 2rem;
   row-gap: 3rem;
     
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0;
+    padding: 2rem 0;
   }
   
-  @media screen and (min-width:768px) and (max-width: 1199px){
+  @media screen and (min-width: 768px) and (max-width: 1199px){
     grid-template-columns: repeat(auto-fill,minmax(calc(100% / 3), 1fr))
   }
 `

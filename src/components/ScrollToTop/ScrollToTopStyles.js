@@ -4,9 +4,6 @@ export const ScrollToTopWrapper = styled.div`
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  animation: ${(props) => props.animation ?
-          'scaleIn' :
-          'scaleOut'};
 
   @media ${(props) => props.theme.breakpoints.sm}{
     bottom: 1.5.rem;
@@ -26,17 +23,5 @@ export const ScrollToTopButton = styled.button`
   
   &:hover{
     background-color: #fff;
-  }
-  
-  > svg{
-    @media ${(props) => props.theme.breakpoints.sm}{
-      width: 2rem;
-      height: 2rem;
-    }
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm}{
-    width: 3rem;
-    height: 3rem;
   }
 `

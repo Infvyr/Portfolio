@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-### [Live Site](https://infvyr.github.com)
+### [Live Site](https://novatchii-vasile.netlify.app)
 
 ![Portfolio Website](public/images/screenshot.jpg)
 

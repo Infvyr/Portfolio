@@ -19,5 +19,6 @@
     "react-modal": "^3.14.3",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
-  }
+  },
+  "devDependencies": {}
 }
