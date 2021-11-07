@@ -10,12 +10,12 @@ const Projects = () => {
   return (
     <Section id="projects">
       <SectionDivider divider />
-      <SectionTitle>Projects</SectionTitle>
+      <SectionTitle>Latest Projects</SectionTitle>
       <GridContainer>
         {projects
           .sort((a,b) => a.order - b.order)
           .map(card => <ProjectCard item={card} key={card.id} />)
-          .slice(0, 6)
+          .slice(0, 3)
         }
       </GridContainer>
       <ExternalLinks href='/all-projects' className="link-to">See more</ExternalLinks>

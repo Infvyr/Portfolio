@@ -79,13 +79,13 @@ const ProjectCard = ({item}) => {
     </div>
     <UtilityList>
       {source && (
-        <ExternalLinks href={source} target="_blank">
+        <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">
           <BsCodeSlash style={{marginRight: '7px'}}/>
           Source
         </ExternalLinks>
       )}
       {visit && (
-        <ExternalLinks href={visit} target="_blank">
+        <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">
           <FiExternalLink style={{marginRight: '7px'}}/>
           Demo
         </ExternalLinks>

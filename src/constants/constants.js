@@ -180,7 +180,7 @@ export const projects = [
     source: 'https://github.com/Infvyr/react-jkommerce',
     visit: 'https://jkommerce.netlify.app',
     id: 5,
-    order: 3,
+    order: 4,
     mainType: 'react'
   },
   {
@@ -232,7 +232,7 @@ export const projects = [
     source: 'https://github.com/Infvyr/React-Cryptocurrency/',
     visit: 'https://infvyr-react-crypto-app.netlify.app/',
     id: 7,
-    order: 4,
+    order: 3,
     mainType: 'react'
   },
   {
@@ -265,5 +265,5 @@ export const TimeLineData = [
   { year: 2017, text: 'Starting my journey as a WordPress developer', },
   { year: 2018, text: 'Working as a front-end WordPress developer', },
   { year: 2019, text: 'Working as a full stack WordPress developer', },
-  { year: 2021, text: 'Getting rid of WordPress stack and switching to React world', },
+  { year: 2021, text: 'Diving completely into ReactJS World', },
 ];

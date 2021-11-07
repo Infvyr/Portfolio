@@ -5,7 +5,7 @@ import {FaPhp} from 'react-icons/fa';
 
 const ProjectsFilter = ({filter, filterBy}) => (
   <section>
-    <h3 style={{textAlign: 'left', margin: '2rem 0'}}>Filter by: {filterBy}</h3>
+    <h3 style={{textAlign: 'left', margin: '2rem 0'}}>Filtered by: <b>{filterBy}</b></h3>
     <FilterContainer>
       <Button
         type="button"
