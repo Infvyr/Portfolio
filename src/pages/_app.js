@@ -13,6 +13,7 @@ function App({ Component, pageProps }) {
       <ThemeProvider theme={{darkMode: darkModeActive, ...theme}}>
         <NextSeo
           title="Novatchii Vasile's Portfolio"
+          description="The personal website for Novatchii Vasile, front-end developer."
           openGraph={{
             type: 'website',
             locale: 'en_GB',

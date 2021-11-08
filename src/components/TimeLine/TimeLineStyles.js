@@ -30,7 +30,7 @@ export const CarouselContainer = styled.ul`
     margin-bottom: 8px;
   }
 `
-export const CarouselMobileScrollNode = styled.div`
+export const CarouselMobileScrollNode = styled.li`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
@@ -59,13 +59,13 @@ export const CarouselItem = styled.div`
   }
 `
 
-export const CarouselItemTitle = styled.h4`
+export const CarouselItemTitle = styled.span`
     margin-bottom: 8px;
     display: flex;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     background: linear-gradient(121.57deg, ${props => props.theme.colors.headingFirstGradientColor} 18.77%, 
                 ${props => props.theme.colors.accent1} 60.15%
     );

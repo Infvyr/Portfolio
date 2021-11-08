@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {NextSeo} from "next-seo";
 import {Layout} from '../layout/Layout';
 import {projects} from '../constants/constants';
 import {Section, SectionDivider, PageTitle} from '../styles/GlobalComponents';
@@ -42,6 +43,14 @@ const AllProjects = () => {
 
   return <Layout>
     <Section nopadding id="projects">
+      <NextSeo
+        title="Novatchii Vasile's Projects"
+        description="Check out Novatchii Vasile's projects"
+        openGraph={{
+          description: 'Check out Novatchii Vasile\'s projects'
+        }}
+      />
+
       <SectionDivider divider style={{marginBottom: 0}} />
       <PageTitle>All My Relevant Projects</PageTitle>
       <ProjectsFilter filter={handleFilter} filterBy={filterBy} />

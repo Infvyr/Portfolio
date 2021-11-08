@@ -79,16 +79,20 @@ const ProjectCard = ({item}) => {
     </div>
     <UtilityList>
       {source && (
-        <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">
-          <BsCodeSlash style={{marginRight: '7px'}}/>
-          Source
-        </ExternalLinks>
+        <li>
+          <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">
+            <BsCodeSlash style={{marginRight: '7px'}}/>
+            Source
+          </ExternalLinks>
+        </li>
       )}
       {visit && (
-        <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">
-          <FiExternalLink style={{marginRight: '7px'}}/>
-          Demo
-        </ExternalLinks>
+        <li>
+          <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">
+            <FiExternalLink style={{marginRight: '7px'}}/>
+            Demo
+          </ExternalLinks>
+        </li>
       )}
     </UtilityList>
   </motion.article>
