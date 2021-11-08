@@ -57,7 +57,7 @@ const ProjectCard = ({item}) => {
 
       <Button
         type="button"
-        aria-label="Open Project Modal"
+        aria-label="Open Project Gallery in a modal window"
         onClick={openModal}
       >
         <BsPlusCircleFill />
@@ -80,7 +80,11 @@ const ProjectCard = ({item}) => {
     <UtilityList>
       {source && (
         <li>
-          <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">
+          <ExternalLinks
+            href={source}
+            target="_blank"
+            title="Visit project source files on Github"
+            rel="noopener noreferrer">
             <BsCodeSlash style={{marginRight: '7px'}}/>
             Source
           </ExternalLinks>
@@ -88,7 +92,11 @@ const ProjectCard = ({item}) => {
       )}
       {visit && (
         <li>
-          <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">
+          <ExternalLinks
+            href={visit}
+            target="_blank"
+            title="Visit project demo address"
+            rel="noopener noreferrer">
             <FiExternalLink style={{marginRight: '7px'}}/>
             Demo
           </ExternalLinks>

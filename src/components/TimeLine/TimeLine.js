@@ -120,7 +120,8 @@ const Timeline = () => {
               active={activeItem}
               onClick={(e) => handleClick(e, index)}
               type="button"
-              name={`slide-${index}`}>
+              name={`slide-${index}`}
+              aria-label={`slide ${index} was selected`}>
               <CarouselButtonDot active={activeItem} />
             </CarouselButton>
           );
