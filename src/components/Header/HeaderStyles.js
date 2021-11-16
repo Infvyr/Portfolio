@@ -48,12 +48,11 @@ export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
   color: ${props => props.theme.colors.primary1};
-  transition: 0.4s ease;
+  cursor: pointer;
+  transition: color 0.3s ease;
   
   &:hover {
     color: ${props => props.theme.colors.button};
-    opacity: 1;
-    cursor: pointer;
   }
   
   @media ${(props) => props.theme.breakpoints.sm} {

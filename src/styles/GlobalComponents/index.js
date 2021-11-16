@@ -128,7 +128,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.85);
+  color: ${props => props.theme.colors.primary1};
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
