@@ -28,7 +28,7 @@ export default function SocialMedia({inFooter}) {
         <FaTelegramPlane size="3rem"/>
       </SocialIcons>
       <SocialIcons
-        href="mailto:vnovatchi@gmail.com?subject=Email"
+        href="mailto://vnovatchi@gmail.com"
         title="Send directly an email"
         target="_blank"
         rel="noopener noreferrer">

@@ -1,29 +1,5 @@
 export const projects = [
   {
-    title: 'JS Dogs API',
-    description: "This is a small vanilla JS project using dogs api to fetch dogs breed. Built this app while I was learning JavaScript language. It's pretty simple one and it performs a specific function - to showcase a slideshow when visitor select a dog breed.",
-    image: 'images/jpgs/proj-dog.jpg',
-    imageWebp: 'images/webps/proj-dog.webp',
-    images: [
-      {
-        original: 'images/projects/DogsAPI/dog-api1.jpg',
-        loading: 'lazy',
-        originalAlt: 'dog-api-1'
-      },
-      {
-        original: 'images/projects/DogsAPI/dog-api2.jpg',
-        loading: 'lazy',
-        originalAlt: 'dog-api-2',
-      },
-    ],
-    tags: ['JavaScript', 'CSS', 'HTML'],
-    source: '',
-    visit: 'https://petapi.netlify.app',
-    id: 0,
-    order: 97,
-    mainType: 'javascript'
-  },
-  {
     title: 'Click Colour',
     description:"What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
     image: 'images/jpgs/hex-color.jpg',
@@ -77,6 +53,43 @@ export const projects = [
     mainType: 'javascript'
   },
   {
+    title: 'Sleet',
+    description: "This is a WordPress starter theme called sleet. A theme meant for beginning theme development from scratch with a modern workflow at that time, in February 2021.",
+    image: 'images/jpgs/sleet.jpg',
+    imageWebp: 'images/webps/sleet.webp',
+    images: null,
+    tags: [ 'PHP', 'WordPress', 'JavaScript', 'HTML', 'SCSS'],
+    source: 'https://github.com/Infvyr/sleet',
+    visit: '',
+    id: 6,
+    order: 98,
+    mainType: 'php'
+  },
+  {
+    title: 'JS Dogs API',
+    description: "This is a small vanilla JS project using dogs api to fetch dogs breed. Built this app while I was learning JavaScript language. It's pretty simple one and it performs a specific function - to showcase a slideshow when visitor select a dog breed.",
+    image: 'images/jpgs/proj-dog.jpg',
+    imageWebp: 'images/webps/proj-dog.webp',
+    images: [
+      {
+        original: 'images/projects/DogsAPI/dog-api1.jpg',
+        loading: 'lazy',
+        originalAlt: 'dog-api-1'
+      },
+      {
+        original: 'images/projects/DogsAPI/dog-api2.jpg',
+        loading: 'lazy',
+        originalAlt: 'dog-api-2',
+      },
+    ],
+    tags: ['JavaScript', 'CSS', 'HTML'],
+    source: '',
+    visit: 'https://petapi.netlify.app',
+    id: 0,
+    order: 97,
+    mainType: 'javascript'
+  },
+  {
     title: 'Search films',
     description: "Search for any stats like awards, box office, IMDB rating or votes for any movie. The app uses IMDB API, vanilla JavaScript and perform a comparison between 2 movies your are looking for.",
     image: 'images/jpgs/search-films-result-view.jpg',
@@ -104,40 +117,6 @@ export const projects = [
     id: 3,
     order: 96,
     mainType: 'javascript'
-  },
-  {
-    title: 'React Todo/Blog',
-    description: "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
-    image: 'images/jpgs/React-todo-and-blog-home-1.jpg',
-    imageWebp: 'images/webps/React-todo-and-blog-home-1.webp',
-    images: [
-      {
-        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg',
-        loading: 'lazy',
-        originalAlt: 'React-todo-and-blog-home-1'
-      },
-      {
-        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg',
-        loading: 'lazy',
-        originalAlt: 'React-todo-and-blog-blog-1'
-      },
-      {
-        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg',
-        loading: 'lazy',
-        originalAlt: 'React-todo-and-blog-blog-2'
-      },
-      {
-        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg',
-        loading: 'lazy',
-        originalAlt: 'React-todo-and-blog-contact'
-      },
-    ],
-    tags: ['React', 'React hooks', 'React Hook Form', 'React transition group', 'React router', 'React Modal', 'React Query', 'Axios', 'Reddit API', 'localstorage'],
-    source: 'https://github.com/Infvyr/javascript-projects/tree/main/search-films',
-    visit: 'https://infvyr-react-todo-reddit-blog.netlify.app',
-    id: 4,
-    order: 2,
-    mainType: 'react'
   },
   {
     title: 'JKommerce',
@@ -180,21 +159,42 @@ export const projects = [
     source: 'https://github.com/Infvyr/react-jkommerce',
     visit: 'https://jkommerce.netlify.app',
     id: 5,
-    order: 4,
+    order: 95,
     mainType: 'react'
   },
   {
-    title: 'Sleet',
-    description: "This is a WordPress starter theme called sleet. A theme meant for beginning theme development from scratch with a modern workflow at that time, in February 2021.",
-    image: 'images/jpgs/sleet.jpg',
-    imageWebp: 'images/webps/sleet.webp',
-    images: null,
-    tags: [ 'PHP', 'WordPress', 'JavaScript', 'HTML', 'SCSS'],
-    source: 'https://github.com/Infvyr/sleet',
-    visit: '',
-    id: 6,
-    order: 98,
-    mainType: 'php'
+    title: 'React Todo/Blog',
+    description: "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
+    image: 'images/jpgs/React-todo-and-blog-home-1.jpg',
+    imageWebp: 'images/webps/React-todo-and-blog-home-1.webp',
+    images: [
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-home-1'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-blog-1'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-blog-2'
+      },
+      {
+        original: 'images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg',
+        loading: 'lazy',
+        originalAlt: 'React-todo-and-blog-contact'
+      },
+    ],
+    tags: ['React', 'React hooks', 'React Hook Form', 'React transition group', 'React router', 'React Modal', 'React Query', 'Axios', 'Reddit API', 'localstorage'],
+    source: 'https://github.com/Infvyr/javascript-projects/tree/main/search-films',
+    visit: 'https://infvyr-react-todo-reddit-blog.netlify.app',
+    id: 4,
+    order: 94,
+    mainType: 'react'
   },
   {
     title: 'Cryptocurrency',
@@ -232,7 +232,7 @@ export const projects = [
     source: 'https://github.com/Infvyr/React-Cryptocurrency/',
     visit: 'https://infvyr-react-crypto-app.netlify.app/',
     id: 7,
-    order: 3,
+    order: 93,
     mainType: 'react'
   },
   {
@@ -256,7 +256,61 @@ export const projects = [
     source: 'https://github.com/Infvyr/Portfolio',
     visit: 'https://novatchii-vasile.netlify.app/',
     id: 8,
-    order: 1,
+    order: 92,
+    mainType: 'react'
+  },
+  {
+    title: 'RLibrary',
+    description: "Simple CRUD books system using Firebase/Firestore, Material UI, React, React Hook Form, React Router v6 and all these things bundled by vite",
+    image: 'images/jpgs/ReactLibraryHomeDark.jpg',
+    imageWebp: 'images/webps/ReactLibraryHomeDark.webp',
+    images: [
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryHomeDark.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary Home Dark'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryHomeLight.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary Home Light'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryHomeSignUpErrors.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary Home Sign uo Errors'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryViewLight.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary View Light'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryViewAddNewBook.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary View Add New Book'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryViewEditBook.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary View Edit Book'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryViewDeleteBook.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary View Delete Book'
+      },
+      {
+        original: 'images/projects/Rlibrary/ReactLibraryViewMobile.jpg',
+        loading: 'lazy',
+        originalAlt: 'RLibrary View Mobile'
+      },
+    ],
+    tags: ['React', 'React hooks', 'Context API', 'React Suspense', 'Router DOM v6', 'Firebase/Firestore', 'Material UI'],
+    source: 'https://github.com/Infvyr/RLibrary',
+    visit: 'https://r-library.netlify.app',
+    id: 9,
+    order: 91,
     mainType: 'react'
   },
 ];
