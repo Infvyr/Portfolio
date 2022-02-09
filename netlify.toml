@@ -2,3 +2,6 @@
   from = "/*"
   to = "/404"
   status = 404
+[build]
+command = "npm run build && npm run export"
+publish = "out"
