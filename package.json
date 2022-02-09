@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start && next export"
   },
   "dependencies": {
     "framer-motion": "^6.2.4",
