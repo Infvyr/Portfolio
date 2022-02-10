@@ -2,7 +2,7 @@
   from = "/*"
   to = "/404"
   status = 404
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-[build]
-publish = "out"
+#[[plugins]]
+#package = "@netlify/plugin-nextjs"
+#[build]
+#publish = "out"
