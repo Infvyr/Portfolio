@@ -1,39 +1,43 @@
-import React from 'react';
-import {FilterContainer, Button} from './ProjectsFilterStyles';
-import {SiReact, SiJavascript} from 'react-icons/si';
-import {FaPhp} from 'react-icons/fa';
+import React from "react";
+import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
+import { SiReact, SiJavascript } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
 
-const ProjectsFilter = ({filter, filterBy}) => (
+const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
-    <h3 style={{textAlign: 'left', margin: '2rem 0'}}>Filtered by: <b>{filterBy}</b></h3>
+    <FilterHeading>
+      Filtered by: <b>{filterBy}</b>
+    </FilterHeading>
     <FilterContainer>
       <Button
         type="button"
-        className={filterBy === 'All' ? 'active' : null}
+        className={filterBy === "All" ? "active" : null}
         aria-label="Filter by All"
-        onClick={() => filter('All')}
+        onClick={() => filter("All")}
       >
         All
       </Button>
       <Button
         type="button"
-        className={filterBy === 'JavaScript' ? 'active' : null}
+        className={filterBy === "JavaScript" ? "active" : null}
         aria-label="Filter by JS"
-        onClick={() => filter('javascript')}
+        onClick={() => filter("javascript")}
       >
         <SiJavascript />
       </Button>
       <Button
         type="button"
-        className={filterBy === 'React' ? 'active' : null}
-        aria-label="Filter by ReactJS" onClick={() => filter('react')}
+        className={filterBy === "React" ? "active" : null}
+        aria-label="Filter by ReactJS"
+        onClick={() => filter("react")}
       >
         <SiReact />
       </Button>
       <Button
         type="button"
-        className={filterBy === 'PHP' ? 'active' : null}
-        aria-label="Filter by PHP" onClick={() => filter('php')}
+        className={filterBy === "PHP" ? "active" : null}
+        aria-label="Filter by PHP"
+        onClick={() => filter("php")}
       >
         <FaPhp />
       </Button>
