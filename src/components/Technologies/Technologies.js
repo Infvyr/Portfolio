@@ -1,10 +1,21 @@
-import React from 'react';
-import {DiFirebase, DiReact, DiZend} from 'react-icons/di';
-import {AiOutlineTool} from "react-icons/ai";
-import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
-import {List, ListContainer, ListItem, ListParagraph, ListTitle} from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { AiOutlineTool } from "react-icons/ai";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
@@ -20,7 +31,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript - React.js
+            JavaScript - React/Next
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +43,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, PHP, MySQL
+            Next, Wordpress
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +55,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like PS, XD, Zeplin, Figma, Avocode
+            PS, XD, Zeplin, Figma, Avocode
           </ListParagraph>
         </ListContainer>
       </ListItem>
