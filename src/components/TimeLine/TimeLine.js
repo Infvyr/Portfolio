@@ -72,11 +72,12 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Skilled and passionate frontend developer with more than 4yrs of
-        experience in building user interfaces, website redesign even newer UI
-        for CRM’s and SPA's. Love learning new things and progressing alongside
-        ambitious and adaptable people. Positive reputation for quality work,
-        timely construction, and finishing projects at estimated budget.
+        Hi, I'm Vasile - a frontend developer from <a href="https://goo.gl/maps/R75QKHp8jrvsx9qi6" target='_blank' rel='nofollow, noopenner'><u>Moldova, Republic of</u></a>. I have studied computer science at Technical University of Moldova where I definitely fall in love with the frontend part of web development. When I start my journey in IT, I have headed myself to WordPress and I have worked in this field for almost 4yrs. As a WP developer I gain positive reputation for quality work, timely construction, and finishing projects at estimated budget. Meanwhile I was looking for new opportunity and challenges, so I have started to learn React in parallel. In 2022 I have pushed myself to a new challenge - to become a React developer. And this thing brought me the expected results.
+      </SectionText>
+      <SectionText>
+        Currently I am a skilled and passionate frontend developer with <b>4yrs+</b> of
+        experience in building user interfaces for CRM’s and SPA's, website redesign, converting templates made by designers into amazing and vivacious websites. I also love learning new things and progressing alongside
+        ambitious and adaptable people. Every work I start, I do with passion and the thought that it will be useful to the end users.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

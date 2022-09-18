@@ -282,7 +282,7 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description:
-      "My personal portfolio project. This is my first NextJS project built after I have watched a NextJS crash course. I have chosen this technology because I aim to learn it and advance more in React's world",
+      "My personal portfolio project. This is my first NextJS project built after I have watched a NextJS crash course. I have chosen this technology because I fall in love with React and Next.js",
     image: "images/jpgs/portfolio-main.jpg",
     imageWebp: "images/webps/portfolio-main.webp",
     images: [
@@ -373,6 +373,59 @@ export const projects = [
     visit: "https://r-library.netlify.app",
     id: 9,
     order: 91,
+    mainType: "react",
+  },
+  {
+    title: "Netty",
+    description:
+      "NextJS project built-in using Hasura GraphQL, Magic link, Youtube API, ChakraUI that allows visitor to watch, like, unlike and save videos to favourites",
+    image: "images/jpgs/netty-login-page.jpeg",
+    imageWebp: "images/webps/netty-login-page.webp",
+    images: [
+      {
+        original: "images/projects/Netty/netty-login-page.webp",
+        loading: "lazy",
+        originalAlt: "Netty login page",
+      },
+      {
+        original: "images/projects/Netty/Home page light.webp",
+        loading: "lazy",
+        originalAlt: "Netty home page light",
+      },
+      {
+        original: "images/projects/Netty/Home page dark.webp",
+        loading: "lazy",
+        originalAlt: "Netty home page dark",
+      },
+      {
+        original: "images/projects/Netty/Video page light.webp",
+        loading: "lazy",
+        originalAlt: "Netty video page light",
+      },
+      {
+        original: "images/projects/Netty/Video page dark.webp",
+        loading: "lazy",
+        originalAlt: "Netty video page dark",
+      },
+      {
+        original: "images/projects/Netty/Favourite page.webp",
+        loading: "lazy",
+        originalAlt: "Netty favourite page",
+      },
+    ],
+    tags: [
+      "Next.js",
+      "Hasura GraphQL",
+      "Magic",
+      "JWT",
+      "Server side rendering",
+      "Incremental Static Regeneration",
+      "YouTube API",
+    ],
+    source: "https://github.com/Infvyr/NetFilms",
+    visit: "https://nettyvideos.netlify.app",
+    id: 10,
+    order: 90,
     mainType: "react",
   },
 ];

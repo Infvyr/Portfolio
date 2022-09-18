@@ -15,7 +15,7 @@ const Projects = () => {
         {projects
           .sort((a,b) => a.order - b.order)
           .map(card => <ProjectCard item={card} key={card.id} />)
-          .slice(0, 3)
+          .slice(0, 6)
         }
       </GridContainer>
       <ExternalLinks href='/all-projects' className="link-to" title="See more projects">See more</ExternalLinks>
