@@ -1,6 +1,6 @@
 {
-  "name": "portfolio_nextjs",
-  "version": "1.0.5",
+  "name": "My Portfolio",
+  "version": "1.0.6",
   "private": true,
   "scripts": {
     "dev": "next dev",
