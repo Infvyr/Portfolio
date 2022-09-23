@@ -428,6 +428,106 @@ export const projects = [
     order: 90,
     mainType: "react",
   },
+  {
+    title: "Proovia Delivery",
+    description:
+      "This represent a company project which consists of three parts: booking goods system, company website and client area. All this stuff has been built in Next.js and Tailwind CSS.",
+    image: "images/jpgs/Proovia Delivery home.jpg",
+    imageWebp: "images/webps/Proovia Delivery home.webp",
+    images: [
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery home.webp",
+        loading: "lazy",
+        originalAlt: "PD home",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery home search address.webp",
+        loading: "lazy",
+        originalAlt: "PD home search",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking Goods and Goods Categories.webp",
+        loading: "lazy",
+        originalAlt: "PD booking goods",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking shopping cart.webp",
+        loading: "lazy",
+        originalAlt: "PD booking goods cart",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking Plans.webp",
+        loading: "lazy",
+        originalAlt: "PD booking plans",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking Payment.webp",
+        loading: "lazy",
+        originalAlt: "PD booking payment",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking Additional Details.webp",
+        loading: "lazy",
+        originalAlt: "PD booking extra",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Booking Order Created.webp",
+        loading: "lazy",
+        originalAlt: "PD booking order created",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Login.webp",
+        loading: "lazy",
+        originalAlt: "PD login",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Client Account.webp",
+        loading: "lazy",
+        originalAlt: "PD account",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Client Addresses.webp",
+        loading: "lazy",
+        originalAlt: "PD addresses",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Client Discount.webp",
+        loading: "lazy",
+        originalAlt: "PD discount",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Order History details.webp",
+        loading: "lazy",
+        originalAlt: "PD order history",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Privacy Police example.webp",
+        loading: "lazy",
+        originalAlt: "PD privacy page",
+      },
+      {
+        original: "images/projects/ProoviaDelivery/Proovia Delivery Terms and conditions.webp",
+        loading: "lazy",
+        originalAlt: "PD terms",
+      },
+    ],
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "HeadlessUI",
+      "JWT",
+      "Stripe",
+      "Recoil",
+      "Yup",
+      "TypeScript",
+      "Framer motion",
+    ],
+    source: "https://github.com/Infvyr/PD",
+    // visit: "https://proovia.delivery",
+    id: 11,
+    order: 89,
+    mainType: "react",
+  },
 ];
 
 export const TimeLineData = [

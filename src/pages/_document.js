@@ -36,7 +36,6 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
           />
           <link rel="icon" type="image/png" href={"/favicon.png"} />
-          <title>Novatchii Vasile | https://novatchii-vasile.netlify.app</title>
         </Head>
 
         <body>
