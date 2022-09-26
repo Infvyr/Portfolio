@@ -20,18 +20,18 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused to React/Next.
+      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size="6rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript - React/Next
+            HTML, CSS, JavaScript, React, Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next, Wordpress
+            Next.js, Wordpress
           </ListParagraph>
         </ListContainer>
       </ListItem>
