@@ -423,7 +423,7 @@ export const projects = [
       "YouTube API",
     ],
     source: "https://github.com/Infvyr/NetFilms",
-    visit: "https://nettyvideos.netlify.app",
+    // visit: "https://nettyvideos.netlify.app",
     id: 10,
     order: 90,
     mainType: "react",
