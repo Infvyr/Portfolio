@@ -523,9 +523,66 @@ export const projects = [
       "Framer motion",
     ],
     source: "https://github.com/Infvyr/PD",
-    // visit: "https://proovia.delivery",
+    visit: "https://new.proovia.delivery",
     id: 11,
     order: 89,
+    mainType: "react",
+  },
+  {
+    title: "Chat Room [Test]",
+    description:
+      "An interview test project that aims to verify skills in understanding the task and building UI with React.",
+    image: "images/jpgs/React-test Chat Room Intro dark.jpg",
+    imageWebp: "images/webps/React-test Chat Room Intro dark.webp",
+    images: [
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro dark.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room Intro dark",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room Intro light.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room Intro light",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat dark.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room User Chat dark",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Chat light.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room User Chat light",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room User extra options dark.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room User extra options dark",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info dark.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room User Info dark",
+      },
+      {
+        original: "images/projects/ReactTestChatRoom/React-test Chat Room User Info light.webp",
+        loading: "lazy",
+        originalAlt: "Chat Room User Info light",
+      },
+    ],
+    tags: [
+      "Typescript",
+      "Jotai",
+      "SWR",
+      "Tailwind CSS",
+      "Headless UI",
+      "json server",
+      "React Error Boundary",
+    ],
+    source: "https://github.com/Infvyr/React-Chat-Room",
+    id: 12,
+    order: 88,
     mainType: "react",
   },
 ];
