@@ -4,6 +4,9 @@ import withDarkMode, { useDarkMode } from 'next-dark-mode';
 import { lightTheme, darkTheme } from '../themes/default';
 import GlobalStyles from "../styles/globals";
 
+const description = "I'm a passionate front-end developer from Moldova. I create full UI from scratch or using UI libraries, React or websites using Next.js"
+const title = "Vasile Novatchii Projects Portfolio"
+
 function App({ Component, pageProps }) {
   const { darkModeActive } = useDarkMode();
   const theme = darkModeActive ? darkTheme : lightTheme;
@@ -12,14 +15,14 @@ function App({ Component, pageProps }) {
     <>
       <ThemeProvider theme={{darkMode: darkModeActive, ...theme}}>
         <NextSeo
-          title="Novatchii Vasile's Portfolio"
-          description="The personal website for Novatchii Vasile, front-end developer."
+          title={title}
+          description={description}
           openGraph={{
             type: 'website',
             locale: 'en_GB',
             url: '',
-            description: 'The personal website for Novatchii Vasile, front-end developer.',
-            site_name: 'Novatchii Vasile | https://novatchii-vasile.netlify.app',
+            description,
+            site_name: title,
           }}
         />
         <GlobalStyles />
