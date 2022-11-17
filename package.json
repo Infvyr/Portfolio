@@ -8,7 +8,7 @@
     "start": "next start && next export"
   },
   "dependencies": {
-    "framer-motion": "^7.6.6",
+    "framer-motion": "^7.6.7",
     "next": "^12.3.3",
     "next-dark-mode": "^3.0.0",
     "next-seo": "^5.14.1",
