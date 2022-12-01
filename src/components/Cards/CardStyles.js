@@ -6,16 +6,8 @@ export const ImgContainer = styled.figure`
   overflow: hidden;
 `
 
-export const Img = styled.img`
-  width: 100%;
-  height: auto;
-  aspect-ratio: 3 / 2;
-  //object-fit: cover;
-`
-
 export const Picture = styled.picture`
   display: block;
-  //height: 240px;
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
@@ -29,20 +21,6 @@ export const PictureImg = styled.img`
   width: 100%;
   aspect-ratio: 3 / 2;
 `
-
-export const Card = styled.article`
-  display: grid;
-  grid-template-rows: auto auto 1fr auto auto;
-  padding-bottom: 2.5rem;
-  height: 100%;
-  background-color: ${props => props.theme.colors.bgContrast};
-  box-shadow: 0 0 3px -1px ${props => props.theme.colors.shadow};
-  
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-    display: block;
-  }
-`;
 
 export const TitleContent = styled.div`
   padding: 0 15px;
@@ -66,16 +44,6 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 15px;
   line-height: 24px;
-`;
-
-
-export const UtilityList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  margin: 1rem 1.5rem;
 `;
 
 export const ExternalLinks = styled.a`

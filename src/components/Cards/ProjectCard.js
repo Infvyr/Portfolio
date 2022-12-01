@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import {
   Button,
   CardInfo,
-  ExternalLinks,
   HeaderThree,
   PictureImg,
   Picture,
@@ -12,10 +11,8 @@ import {
   Tag,
   TagList,
   TitleContent,
-  UtilityList,
 } from "./CardStyles";
-import { BsCodeSlash, BsPlusCircleFill } from "react-icons/bs";
-import { FiExternalLink } from "react-icons/fi";
+import { BsPlusCircleFill } from "react-icons/bs";
 import ProjectModal from "../Modal/ProjectModal";
 
 const variants = {
@@ -39,7 +36,7 @@ const ProjectCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, visit, source, image, imageWebp, images } =
+  const { title, description, tags, image, imageWebp, images } =
     item;
 
   return (
@@ -87,34 +84,6 @@ const ProjectCard = ({ item }) => {
           })}
         </TagList>
       </div>
-      <UtilityList>
-        {source && (
-          <li>
-            <ExternalLinks
-              href={source}
-              target="_blank"
-              title="Visit project source files on Github"
-              rel="noopener noreferrer"
-            >
-              <BsCodeSlash style={{ marginRight: "7px" }} />
-              Source
-            </ExternalLinks>
-          </li>
-        )}
-        {visit && (
-          <li>
-            <ExternalLinks
-              href={visit}
-              target="_blank"
-              title="Visit project demo address"
-              rel="noopener noreferrer"
-            >
-              <FiExternalLink style={{ marginRight: "7px" }} />
-              Demo
-            </ExternalLinks>
-          </li>
-        )}
-      </UtilityList>
     </motion.div>
   );
 };

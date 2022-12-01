@@ -28,7 +28,6 @@ export const Div1 = styled.div`
       font-size: 1.5rem;
     }
   }
-  
 `;
 
 export const Div2 = styled.ul`

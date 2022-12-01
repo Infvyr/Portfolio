@@ -72,10 +72,10 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Vasile - a frontend developer from <a href="https://goo.gl/maps/R75QKHp8jrvsx9qi6" target='_blank' rel='nofollow, noopenner'><u>Moldova, Republic of</u></a>. I have studied computer science at Technical University of Moldova where I definitely fall in love with the frontend part of web development. When I start my journey in IT, I have headed myself to WordPress and I have worked in this field for almost 4yrs. As a WP developer I gain positive reputation for quality work, timely construction, and finishing projects at estimated budget. Meanwhile I was looking for new opportunities and challenges, so I have started to learn React in parallel. In 2022 I have pushed myself to a new challenge - to become a React developer. And this thing brought me the expected results.
+        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est harum impedit laborum, nobis odit porro quibusdam saepe suscipit! Accusamus adipisci aliquam amet consectetur dolore doloremque eaque earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil obcaecati omnis possimus quibusdam repellat sed velit vero. A, accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt libero minima nisi obcaecati quae saepe! Consectetur maiores natus reiciendis rem!
       </SectionText>
       <SectionText>
-        Currently I am a results-oriented and passionate frontend developer with experience in building website from scratch, website redesign, user interfaces for CRM’s and SPA's, converting templates made by designers into amazing and vivacious websites. I also love learning new things and progressing alongside ambitious and accountable people. Every work I start, I do with passion and the thought that it will be useful to the end users.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus quaerat quam quasi rerum sequi tempore temporibus vitae voluptates. Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat suscipit tempore voluptates?
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -146,7 +146,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      {/*<SectionDivider />*/}
     </Section>
   );
 };
