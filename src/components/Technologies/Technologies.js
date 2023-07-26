@@ -43,35 +43,11 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            Next.js, Nest JS and Express
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="6rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <AiOutlineTool size="5.5rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Other Tools</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            WordPress CMS, Jira, Trello, Git
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
+      </List>
   </Section>
 );
 

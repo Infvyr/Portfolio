@@ -72,10 +72,10 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est harum impedit laborum, nobis odit porro quibusdam saepe suscipit! Accusamus adipisci aliquam amet consectetur dolore doloremque eaque earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil obcaecati omnis possimus quibusdam repellat sed velit vero. A, accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt libero minima nisi obcaecati quae saepe! Consectetur maiores natus reiciendis rem!
+        Hi, I'm Niranjan -  
       </SectionText>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus quaerat quam quasi rerum sequi tempore temporibus vitae voluptates. Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat suscipit tempore voluptates?
+        A Front end developer with solid experience in developing webpages and integrations using JavaScript and python frameworks. Currently pursuing my 5th year in Integrated M.Sc. Software Systems at PSG College of Technology. Having an avid interest to learn new things through working on intuitive projects and looking for more opportunities to channelize them further.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
